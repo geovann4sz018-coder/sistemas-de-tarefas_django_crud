@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Tarefa
+from .models import Tarefa, Categoria
 
 admin.site.register(Tarefa)
-# Register your models here.
+admin.site.register(Categoria)
